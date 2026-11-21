@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Процессы | Информационная поддержка процессов жизненного цикла программных систем</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
+</head>
+
+<body>
+
+	<div id="site-nav"></div>
+
+	<section id="processes" class="text-center py-5 text-light">
+		<div class="inner-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col mt-5 pt-4">
+						<h1 class="text-light">Процессы жизненного цикла</h1>
+						<p class="lead">Процессы жизненного цикла организуют работы от определения потребности до
+							эксплуатации и вывода программной системы из использования.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="processes-table" class="py-5 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="text-center">Основные группы работ</h1>
+				</div>
+			</div>
+			<div class="row my-5">
+				<div class="col-lg-4 col-md-4">
+					<div class="card">
+						<div class="card-header">
+							<h2 class="m-0">Анализ и проектирование</h2>
+						</div>
+						<div class="card-body">
+							<p class="card-text lead">Определение целей, границ системы и требований к её функциям и
+								качеству.</p>
+							<ul class="list-group">
+								<li class="list-group-item">Выявление заинтересованных сторон</li>
+								<li class="list-group-item">Сбор и анализ требований</li>
+								<li class="list-group-item">Формирование спецификации</li>
+								<li class="list-group-item">Проектирование архитектуры</li>
+								<li class="list-group-item">Подготовка моделей системы</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<h4 class="m-0 text-muted">Результат: согласованные требования и проектные решения</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card h-1000">
+						<div class="card-header">
+							<h2 class="m-0">Разработка и проверка</h2>
+						</div>
+						<div class="card-body">
+							<p class="card-text lead">Создание программных компонентов и подтверждение их соответствия
+								требованиям.</p>
+							<ul class="list-group">
+								<li class="list-group-item">Реализация исходного кода</li>
+								<li class="list-group-item">Контроль версий и изменений</li>
+								<li class="list-group-item">Модульное тестирование</li>
+								<li class="list-group-item">Интеграционное тестирование</li>
+								<li class="list-group-item">Регистрация и анализ дефектов</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<h4 class="m-0 text-muted">Результат: проверенная версия программного продукта</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card">
+						<div class="card-header">
+							<h2 class="m-0">Внедрение и сопровождение</h2>
+						</div>
+						<div class="card-body">
+							<p class="card-text lead">Подготовка системы к использованию, поддержка пользователей и
+								дальнейшее развитие.</p>
+							<ul class="list-group">
+								<li class="list-group-item">Развёртывание системы</li>
+								<li class="list-group-item">Подготовка эксплуатационной документации</li>
+								<li class="list-group-item">Мониторинг работы</li>
+								<li class="list-group-item">Исправление выявленных ошибок</li>
+								<li class="list-group-item">Адаптация и развитие функций</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<h4 class="m-0 text-muted">Результат: работающая и сопровождаемая система</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="traceability" class="py-5 bg-dark text-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<h2 class="text-light">Информационная поддержка и прослеживаемость</h2>
+					<p class="lead">В ходе жизненного цикла создаются и изменяются требования, модели, исходный код,
+						тесты, отчёты и эксплуатационные документы. Информационная поддержка помогает хранить эти
+						артефакты, контролировать версии и связывать результаты работ между собой.</p>
+					<p>Прослеживаемость показывает, как требование связано с проектным решением, программным компонентом
+						и проверкой. Она упрощает оценку последствий изменений и помогает убедиться, что требования
+						реализованы и проверены.</p>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="card bg-secondary text-light">
+						<div class="card-header">
+							<h2 class="m-0 text-light">Пример цепочки прослеживаемости</h2>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item bg-dark text-light">Требование: система должна поддерживать вход
+								пользователя</li>
+							<li class="list-group-item bg-dark text-light">Проектное решение: компонент аутентификации
+							</li>
+							<li class="list-group-item bg-dark text-light">Реализация: изменение исходного кода</li>
+							<li class="list-group-item bg-dark text-light">Проверка: тест успешного и неуспешного входа
+							</li>
+							<li class="list-group-item bg-dark text-light">Результат: запись о прохождении теста для
+								версии продукта</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="configuration" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h1>Управление изменениями и конфигурацией</h1>
+					<p class="lead">Контролируемые изменения помогают развивать систему, сохраняя целостность её
+						компонентов и документации.</p>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-lg-4 col-md-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<h3>Регистрация</h3>
+							<p>Запрос на изменение фиксируется с описанием причины, ожидаемого результата и
+								затрагиваемых частей системы.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<h3>Оценка и согласование</h3>
+							<p>Команда оценивает трудоёмкость, риски и влияние изменения на требования, архитектуру,
+								тесты и сроки работ.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<h3>Выполнение и контроль</h3>
+							<p>После согласования изменение реализуется, проверяется и включается в контролируемую
+								версию продукта вместе с обновлённой документацией.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div id="site-footer"></div>
+
+	<script type="text/javascript" src="js/jquery-slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+	<script type="text/javascript" src="js/include-layout.js"></script>
+</body>
+
+</html>
