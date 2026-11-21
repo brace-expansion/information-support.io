@@ -1,0 +1,251 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {}
+
+.navbar {
+	background: #000;
+}
+
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+
+.navbar .webT {
+	font-size: 20px;
+}
+
+/*Slider*/
+.carousel-item {
+	height: 500px;
+}
+
+.crs-img-1 {
+	background: url('../img/slider-img1.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.crs-img-2 {
+	background: url('../img/slider-img2.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.crs-img-3 {
+	background: url('../img/slider-img3.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.crs-img-4 {
+	background: url('../img/slider-img4.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+
+/*Showcase*/
+#showcase .fas {
+	font-size: 35px;
+
+}
+
+/*Get Started*/
+#purpose {
+	background: url('../img/showcase.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+
+#purpose .inner-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%
+}
+
+/*Info */
+#info .infoS {
+	margin-top: 70px;
+}
+
+#info img {
+	border-radius: 5px;
+}
+
+/*Footer*/
+#footer {
+	background: #000;
+}
+
+#footer .fab {
+	font-size: 25px;
+	color: #fff;
+	border: 1px solid #136268;
+	padding: 5px;
+}
+
+#footer .fab:hover {
+	color: #ff0000;
+	border-color: #000;
+}
+
+/*Basics Page*/
+
+/*Basics Section*/
+#basics {
+	background: url('../img/basics.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
+
+#basics .inner-overlay,
+#processes .inner-overlay,
+#tools .inner-overlay,
+#quality .inner-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 300px;
+}
+
+#basics-objects .fas {
+	font-size: 50px;
+}
+
+/*Processes Section*/
+/*Processes Header*/
+#processes {
+	background: url('../img/processes.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
+
+#basics-questions {
+	height: auto;
+}
+
+#basics-questions .card {
+	cursor: pointer;
+}
+
+#tools {
+	background: url('../img/tools.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
+
+#quality {
+	background: url('../img/quality.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
+
+
+@media (max-width: 991px) {
+	#info .infoS {
+		margin-top: 0px;
+	}
+}
+
+@media(max-width:767px) {
+
+	#purpose .gC {
+		margin-top: 0 !important;
+	}
+
+	#info p {
+		font-size: 15px;
+		margin-top: 0;
+	}
+
+	#info h3 {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	#basics-objects .card {
+		margin: 5px 0;
+	}
+
+	#basics-questions h5 {
+		font-size: 13px;
+	}
+
+	#basics-questions p {
+		font-size: 10px;
+	}
+
+	#services-table .text-center.display-4 {
+		font-size: 30px;
+	}
+}
+
+@media(max-width: 575px) {
+	#showcase .col-lg-4.col-md-4 {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	#showcase h3 {
+		margin: 0;
+	}
+
+	#info .infoS {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+
+	#basics-questions {
+		height: 600px;
+	}
+}
+
+@media(max-width: 420px) {
+	.navbar .navbar-brand {
+		width: 75%;
+	}
+
+	#myCarousel .display-4 {
+		font-size: 45px !important;
+	}
+
+	#showcase .lead {
+		font-size: 16px;
+	}
+
+	#purpose .lead {
+		font-size: 16px;
+		margin-top: 0;
+	}
+
+	#purpose h3 {
+		margin-bottom: 0;
+	}
+}
